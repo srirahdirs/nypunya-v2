@@ -161,7 +161,7 @@ const DesktopNavBar = () => {
                                     </Link>
 
                                     {isServicesOpen && (
-                                        <div className="absolute top-full left-0 bg-white shadow-lg rounded-md py-4 px-4 z-50 w-64 services-menu">
+                                        <div className="absolute top-full left-0 bg-custom-blue shadow-lg rounded-md py-4 px-4 z-50 w-64 services-menu">
                                             <ul>
                                                 {serviceSubmenu.map((category, idx) => (
                                                     <li
@@ -177,7 +177,7 @@ const DesktopNavBar = () => {
                                                         </div>
 
                                                         {hoveredCategory === category.category && (
-                                                            <div className="absolute top-0 left-full ml-2 bg-white shadow-lg rounded-md p-4 w-72 z-50 services-submenu">
+                                                            <div className="absolute top-0 left-full ml-2 bg-custom-blue shadow-lg rounded-md p-4 w-72 z-50 services-submenu">
                                                                 <ul className="space-y-2">
                                                                     {category.subservices.map((service, subIdx) => (
                                                                         <li
