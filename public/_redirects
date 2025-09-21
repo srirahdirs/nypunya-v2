@@ -1,0 +1,6 @@
+# Netlify redirects file
+# Redirect www to non-www
+https://www.nypunyaaesthetics.com/*  https://nypunyaaesthetics.com/:splat  301!
+
+# Handle trailing slashes
+/*  /:splat  301!
