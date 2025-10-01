@@ -89,22 +89,22 @@ const TransformationsSection = () => {
         },
         {
             id: 2,
-            title: "PRP",
+            title: "Pigmentation",
             image: "home/gallery/dermatology/2.jpeg"
         },
         {
             id: 3,
-            title: "Pigmentation",
+            title: "Laser Hair Removal",
             image: "home/gallery/dermatology/3.jpeg"
         },
         {
             id: 4,
-            title: "Laser Hair Removal",
+            title: "Botox",
             image: "home/gallery/dermatology/4.jpeg"
         },
         {
             id: 5,
-            title: "Botox",
+            title: "Acne Treatment",
             image: "home/gallery/dermatology/5.jpeg"
         },
         {
@@ -114,12 +114,12 @@ const TransformationsSection = () => {
         },
         {
             id: 7,
-            title: "Pigmentation Removal",
+            title: "Pigmentation",
             image: "home/gallery/dermatology/2.jpeg"
         },
         {
             id: 8,
-            title: "Laser Hair Removal",
+            title: "Botox",
             image: "home/gallery/dermatology/3.jpeg"
         }
     ];
